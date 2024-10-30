@@ -123,6 +123,7 @@ fun LatihanInput(modifier: Modifier = Modifier) {
             )
             Button(onClick = {
                 dataNama = nama
+                datajenisJK = jenisJK
                 dataEmail = email
                 dataNoHp = noHp
                 dataAlamat = alamat
